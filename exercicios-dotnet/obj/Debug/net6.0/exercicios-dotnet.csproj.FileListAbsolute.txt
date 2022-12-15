@@ -1,0 +1,15 @@
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\bin\Debug\net6.0\exercicios-dotnet.exe
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\bin\Debug\net6.0\exercicios-dotnet.deps.json
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\bin\Debug\net6.0\exercicios-dotnet.runtimeconfig.json
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\bin\Debug\net6.0\exercicios-dotnet.dll
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\bin\Debug\net6.0\exercicios-dotnet.pdb
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.csproj.AssemblyReference.cache
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.AssemblyInfoInputs.cache
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.AssemblyInfo.cs
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.csproj.CoreCompileInputs.cache
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.dll
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\refint\exercicios-dotnet.dll
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.pdb
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\exercicios-dotnet.genruntimeconfig.cache
+F:\dotnet-codigo-do-futuro\exercicios-dotnet\obj\Debug\net6.0\ref\exercicios-dotnet.dll
