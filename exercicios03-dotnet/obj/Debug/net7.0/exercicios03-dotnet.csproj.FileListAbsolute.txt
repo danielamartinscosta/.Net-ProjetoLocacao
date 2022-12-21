@@ -1,0 +1,15 @@
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\bin\Debug\net7.0\exercicios03-dotnet.exe
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\bin\Debug\net7.0\exercicios03-dotnet.deps.json
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\bin\Debug\net7.0\exercicios03-dotnet.runtimeconfig.json
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\bin\Debug\net7.0\exercicios03-dotnet.dll
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\bin\Debug\net7.0\exercicios03-dotnet.pdb
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.csproj.AssemblyReference.cache
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.AssemblyInfoInputs.cache
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.AssemblyInfo.cs
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.csproj.CoreCompileInputs.cache
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.dll
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\refint\exercicios03-dotnet.dll
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.pdb
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\exercicios03-dotnet.genruntimeconfig.cache
+F:\dotnet-codigo-do-futuro\exercicios03-dotnet\obj\Debug\net7.0\ref\exercicios03-dotnet.dll
