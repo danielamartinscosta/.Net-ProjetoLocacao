@@ -34,9 +34,33 @@ public class ProdutosController : Controller
     }
 
 
-    [Route("/produtos/{id}/deletar")]
+
+    [Route("/produtos/{id}/editar")]
+
+    public IActionResult Editar([FromRoute] int id)
+    {
+
+        ViewBag.produto = Produto.BuscaPorId(id);
+        return View();
+    }
 
     
+
+
+    [Route("/produtos/{id}/atualizar")]
+
+    public IActionResult Atualizar([FromForm] int id, [FromForm] Produto produto)
+    {
+
+        produto.Id = id;
+        produto.Salvar();
+
+        return Redirect("/produtos");
+    }
+
+
+    [Route("/produtos/{id}/deletar")]
+
     public IActionResult Apagar([FromRoute] int id)
     {
         Produto.ApagarPorId(id);

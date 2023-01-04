@@ -113,4 +113,35 @@ public class Produto
         }
 
     }
+
+    public static Produto? BuscaPorId(int id)
+    {
+        var produto = new Produto();
+        using (var conn = new MySqlConnection(conexao))
+        {
+            conn.Open();
+            var query = $"select * from produtos where id = '{id}'";
+
+            var command = new MySqlCommand(query, conn);
+            var dataReader = command.ExecuteReader();
+
+            while (dataReader.Read())
+            {
+                produto = new Produto
+                {
+                    Id = Convert.ToInt32(dataReader["id"]),
+                    Nome = dataReader["nome"].ToString(),
+                    Descricao = dataReader["descricao"].ToString(),
+                    DataCriacao = Convert.ToDateTime(dataReader["data_criacao"]),
+                    DataValidade = Convert.ToDateTime(dataReader["data_validade"]),
+                    QuantidadeEstoque = Convert.ToInt32(dataReader["quantidade_estoque"]),
+                };
+            }
+
+            conn.Close();
+
+        }
+
+        return produto.Id == 0? null : produto;
+    }
 }
