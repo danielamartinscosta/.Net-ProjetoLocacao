@@ -99,7 +99,18 @@ public class Produto
         return produtos;
     }
 
+    public static void ApagarPorId(int id)
+    {
+        using (var conn = new MySqlConnection(conexao))
+        {
+            conn.Open();
+            var query = $"delete from produtos where id = {id}";
 
+            var command = new MySqlCommand(query, conn);
+            command.ExecuteNonQuery();
+            conn.Close();
 
+        }
 
+    }
 }

@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/dotnet-codigo-do-futuro/exercicioCrud/web/Views/Produtos/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/dotnet-codigo-do-futuro/exercicioCrud/web/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet-codigo-do-futuro/exercicioCrud/web/Views/Produtos/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcTm92by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/dotnet-codigo-do-futuro/exercicioCrud/web/Views/Shared/Error.cshtml]

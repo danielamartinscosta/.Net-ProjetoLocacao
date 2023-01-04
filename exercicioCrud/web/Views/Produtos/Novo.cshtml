@@ -1,0 +1,37 @@
+﻿@using Negocio.Models
+@{
+    ViewData["Title"] = "Novo Produto";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Novo Produto</h1>
+</div>
+
+<hr>
+
+
+<form action="/produtos/cadastrar" method="post">
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="nome" name="nome" class="form-control" id="nome"  placeholder="Digite seu nome">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="descricao">Descrição</label>
+    <input type="descricao" name="descricao" class="form-control" id="descricao" placeholder="Digite a descrição do produto">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="dataValidade">Data de validade</label>
+    <input type="date" name="dataValidade" class="form-control" id="descricao" placeholder="Digite a data de validade">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="quantidade">Quantidade</label>
+    <input type="quantidade" name="quantidade" class="form-control" id="quantidade" placeholder="Digite a quantidade">
+  </div>
+  <br>
+  
+  <button type="submit" class="btn btn-primary">Enviar</button>
+  <a href="/produtos" class="btn btn-default">Voltar</a>
+</form>

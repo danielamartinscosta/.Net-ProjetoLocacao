@@ -1,4 +1,5 @@
-﻿@{
+﻿@using Negocio.Models
+@{
     ViewData["Title"] = "Produtos";
 }
 
@@ -6,7 +7,8 @@
     <h1 class="display-4">Lista de Produtos</h1>
 </div>
 
-
+<hr>
+<a href="/produtos/novo" class="btn btn-primary">Novo Produto</a>
 <hr>
 <table class="table">
   <thead>
@@ -16,26 +18,40 @@
       <th scope="col">Descrição</th>
       <th scope="col">Data de criação</th>
       <th scope="col">Data de validade</th>
-      <th scope="col">Quantidade em estoque</th>
+      <th scope="col">Quantidade</th>
       <th style="width:30px;" scope="col"></th>
       <th style="width:30px;" scope="col"></th>
       
     </tr>
   </thead>
   <tbody>
+
+    @foreach (Produto produto in ViewBag.produtos)
+    {
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>mdo</td>
-      <td>Otto</td>
-      <td>mdo</td>
+      <th scope="row">@produto.Id</th>
+      <td>@produto.Nome</td>
+      <td>@produto.Descricao</td>
+      <td>@produto.DataCriacao.ToString("dd/MM/yyyy")</td>
+      <td>@produto.DataValidade.ToString("dd/MM/yyyy")</td>
+      <td>@produto.QuantidadeEstoque</td>
       <td>
-        <a href="/produtos/1/editar" class="btn btn-warning">Editar</a>
+        <a href="/produtos/@produto.Id/editar" class="btn btn-warning">Editar</a>
       </td>
       <td>
-        <a href="/produtos/1/deletar" class="btn btn-danger">Excluir</a>
+        <a href="#" onclick="excluir(@produto.Id)" class="btn btn-danger">Excluir</a>
       </td>
     </tr>
+    }
+    
   </tbody>
 </table>
+
+<script>
+
+  const excluir = (id) => {
+    if(confirm('Confirma?')){
+      window.location.href='/produtos/' + id + '/deletar'
+    }
+  }
+</script>
