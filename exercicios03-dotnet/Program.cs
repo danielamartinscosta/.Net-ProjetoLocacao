@@ -1,4 +1,7 @@
 ﻿using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
 
 
 class Program
@@ -9,8 +12,9 @@ class Program
 
         var fornecedores = new List<Fornecedor>();
         var usuarios = new List<Usuario>();
-        var json = File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + @"Import\cadastros.json");
-
+        //var json = File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + @"/f/dotnet-codigo-do-futuro/exercicios03-dotnet/Import/cadastros.json");
+        //using StreamWriter file = new(@"/f/dotnet-codigo-do-futuro/exercicios03-dotnet/Import/cadastros.json", append: true);
+        
 
 
         while (true)
@@ -54,7 +58,7 @@ class Program
 
     private static void listarCadastros(List<Fornecedor> fornecedores, List<Usuario> usuarios)
     {
-         Console.Clear(); // faz com que o menu não apareça junto com a lista
+        Console.Clear(); // faz com que o menu não apareça junto com a lista
 
         if (usuarios.Count == 0)
         {
@@ -63,7 +67,7 @@ class Program
             Thread.Sleep(2000);
             return;
         }
-        foreach (var usuario in usuarios)
+        foreach (var usuario in usuarios);
         {
             Console.WriteLine("========================");
             Console.WriteLine("Id: " + usuario.Id);
@@ -86,6 +90,7 @@ class Program
         Console.WriteLine("\nDigite o CNPJ de: " + fornecedor.Nome);
         fornecedor.Documento = Console.ReadLine();
 
+        File.WriteAllText(@"/f/dotnet-codigo-do-futuro/exercicios03-dotnet/Import/cadastros.json");
         fornecedores.Add(fornecedor); // se tudo estiver certo, adiciona o fornecedor na lista de fornecedores
 
         Console.Clear();
