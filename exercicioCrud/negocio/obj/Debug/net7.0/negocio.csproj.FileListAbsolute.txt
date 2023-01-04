@@ -1,0 +1,12 @@
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\bin\Debug\net7.0\negocio.deps.json
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\bin\Debug\net7.0\negocio.dll
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\bin\Debug\net7.0\negocio.pdb
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\negocio.csproj.AssemblyReference.cache
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\negocio.GeneratedMSBuildEditorConfig.editorconfig
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\negocio.AssemblyInfoInputs.cache
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\negocio.AssemblyInfo.cs
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\negocio.csproj.CoreCompileInputs.cache
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\negocio.dll
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\refint\negocio.dll
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\negocio.pdb
+F:\dotnet-codigo-do-futuro\exercicioCrud\negocio\obj\Debug\net7.0\ref\negocio.dll

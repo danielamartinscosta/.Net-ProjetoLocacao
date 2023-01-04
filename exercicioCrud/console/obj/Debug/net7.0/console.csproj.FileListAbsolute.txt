@@ -32,3 +32,5 @@ F:\dotnet-codigo-do-futuro\exercicioCrud\console\obj\Debug\net7.0\refint\console
 F:\dotnet-codigo-do-futuro\exercicioCrud\console\obj\Debug\net7.0\console.pdb
 F:\dotnet-codigo-do-futuro\exercicioCrud\console\obj\Debug\net7.0\console.genruntimeconfig.cache
 F:\dotnet-codigo-do-futuro\exercicioCrud\console\obj\Debug\net7.0\ref\console.dll
+F:\dotnet-codigo-do-futuro\exercicioCrud\console\bin\Debug\net7.0\negocio.dll
+F:\dotnet-codigo-do-futuro\exercicioCrud\console\bin\Debug\net7.0\negocio.pdb

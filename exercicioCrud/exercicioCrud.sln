@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "console\console.csproj", "{2B697CB8-97AF-4D21-BA47-9C03C66BE0AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{86902664-2982-4F83-968F-D973D36542CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{C8A58F8D-0523-4A1F-AF41-4537C8909E42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{2B697CB8-97AF-4D21-BA47-9C03C66BE0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B697CB8-97AF-4D21-BA47-9C03C66BE0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B697CB8-97AF-4D21-BA47-9C03C66BE0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86902664-2982-4F83-968F-D973D36542CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86902664-2982-4F83-968F-D973D36542CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86902664-2982-4F83-968F-D973D36542CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86902664-2982-4F83-968F-D973D36542CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A58F8D-0523-4A1F-AF41-4537C8909E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A58F8D-0523-4A1F-AF41-4537C8909E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A58F8D-0523-4A1F-AF41-4537C8909E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A58F8D-0523-4A1F-AF41-4537C8909E42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

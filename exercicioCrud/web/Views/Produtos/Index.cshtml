@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Produtos";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Produtos</h1>
+</div>
+
+
+<hr>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Data de criação</th>
+      <th scope="col">Data de validade</th>
+      <th scope="col">Quantidade em estoque</th>
+      <th style="width:30px;" scope="col"></th>
+      <th style="width:30px;" scope="col"></th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>mdo</td>
+      <td>Otto</td>
+      <td>mdo</td>
+      <td>
+        <a href="/produtos/1/editar" class="btn btn-warning">Editar</a>
+      </td>
+      <td>
+        <a href="/produtos/1/deletar" class="btn btn-danger">Excluir</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
