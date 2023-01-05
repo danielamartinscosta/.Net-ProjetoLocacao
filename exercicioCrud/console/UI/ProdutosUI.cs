@@ -1,5 +1,6 @@
 using System.Globalization;
-using Negocio.Models;
+using Negocio.Entidades;
+using Negocio.Repositorios;
 
 namespace ConsoleApp.UI;
 
@@ -21,7 +22,7 @@ internal class ProdutosUI
         Console.WriteLine("Quantidade: ");
         produto.QuantidadeEstoque = Convert.ToInt32(Console.ReadLine());
 
-        produto.Salvar();
+        ProdutoRepositorio.Salvar(produto);
 
 
         MensagensUI.Mensagem("Produto cadastrado com sucesso!");
@@ -45,7 +46,7 @@ internal class ProdutosUI
         }
 
 
-        var produtos = Produto.BuscaPorIdOuNome(idOuNome);
+        var produtos = ProdutoRepositorio.BuscaPorIdOuNome(idOuNome);
 
         if (produtos.Count == 0)
         {
@@ -85,7 +86,7 @@ internal class ProdutosUI
         produto.QuantidadeEstoque = Convert.ToInt32(Console.ReadLine());
 
 
-        produto.Salvar();
+        ProdutoRepositorio.Salvar(produto);
 
 
 
@@ -100,7 +101,7 @@ internal class ProdutosUI
     internal static void ListarProduto()
     {
         Console.WriteLine("====== Lista de produtos ========");
-        var produtos = Produto.Todos();
+        var produtos = ProdutoRepositorio.Todos();
         foreach (var produtoDb in produtos)
         {
             Console.WriteLine("Id: " + produtoDb.Id);

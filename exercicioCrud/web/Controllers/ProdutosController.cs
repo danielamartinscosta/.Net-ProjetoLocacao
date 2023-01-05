@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Negocio.Models;
+using Negocio.Entidades;
+using Negocio.Repositorios;
 
 
 namespace web.Controllers;
@@ -10,7 +11,7 @@ public class ProdutosController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.produtos = Produto.Todos();
+        ViewBag.produtos = ProdutoRepositorio.Todos();
         return View();
     }
 
@@ -29,7 +30,7 @@ public class ProdutosController : Controller
             return View();
         }
 
-        produto.Salvar();
+        ProdutoRepositorio.Salvar(produto);
         return Redirect("/produtos");
     }
 
@@ -40,7 +41,7 @@ public class ProdutosController : Controller
     public IActionResult Editar([FromRoute] int id)
     {
 
-        ViewBag.produto = Produto.BuscaPorId(id);
+        ViewBag.produto = ProdutoRepositorio.BuscaPorId(id);
         return View();
     }
 
@@ -53,7 +54,7 @@ public class ProdutosController : Controller
     {
 
         produto.Id = id;
-        produto.Salvar();
+        ProdutoRepositorio.Salvar(produto);
 
         return Redirect("/produtos");
     }
@@ -63,7 +64,7 @@ public class ProdutosController : Controller
 
     public IActionResult Apagar([FromRoute] int id)
     {
-        Produto.ApagarPorId(id);
+        ProdutoRepositorio.ApagarPorId(id);
         return Redirect("/produtos");
     }
 }
